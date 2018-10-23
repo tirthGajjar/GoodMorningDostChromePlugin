@@ -1,0 +1,17 @@
+body{
+    background-color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:black;
+}
+
+#qoute{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#qouteAuthor {
+    text-align: right;
+}

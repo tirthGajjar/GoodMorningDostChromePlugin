@@ -1,0 +1,11 @@
+{
+  "name": "Good Morning Dost",
+  "version": "1.0",
+  "description": "Prompt the user a random good morning thought everytime he opens the chrome browser first time on the day",
+  "permissions": ["activeTab","tabs","*://*/*","notifications","storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
